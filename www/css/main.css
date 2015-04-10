@@ -21,3 +21,118 @@ h1 {
 	padding-bottom: .35em;
 	padding-top: .50em;
 }
+
+header {
+	background-image: url("../images/bg-pattern.png");
+}
+
+h1: hover {
+	background-color: #ba6e8d;
+
+}
+.h2 {
+	background-image: url("../img/cement.jpg");
+	background-size: cover;
+	display: block;
+	padding: 6em;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,), rgba(0,0,0.50));
+}
+
+h2 {
+	background-color: #ba6e8d;
+	font-size: 1.5em;
+	color: #fff;
+	background-position: center center;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2:hover {
+	background-color: #ba6e8d;
+}
+.masthead {
+	padding: 6em;
+}
+
+
+.beetle-l {
+	width: 10%;
+	float: left;
+}
+
+.beetle-r {
+	width: 10%;
+	float: right;
+}
+.beetle-images {
+	overflow: hidden;
+}
+
+.beetle-images figure {
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.beetle-images figcaption {
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	padding: .25em .50em;
+	display: inline-block;
+	font-size: 1.25rem;
+	color: #fff;
+	position: absolute;
+	left: 20%;
+	bottom: 10px;
+	text-decoration: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom, limegreen, darkgreen);
+	box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+
+a:hover {
+	background-color: blue;
+}
+
+nav {
+	background-color: rgba(81,34,0,.50);
+	padding: 1em;
+	text-align: center;
+}
+nav ol:hover {
+	background-color: #512200;
+}
+
+
+ol {
+	padding-left: 0;
+	margin: .50em;
+}
+
+ol li {
+	display: inline-block;
+	list-style-type: none;
+	background-color: #ba6e8d;
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding-right: .50em;
+}
+
+nav a:hover {
+	background-color: #512200;
+}
