@@ -1,0 +1,23 @@
+/* Colour Palette:
+Dark Pinkish Brown: #512200;
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1 {
+	color: #512200;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	display: block;
+	margin: 0em;
+	text-align: center;
+	font-size: 3em;
+	padding-bottom: .35em;
+	padding-top: .50em;
+}
