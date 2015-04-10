@@ -34,10 +34,6 @@ h1 {
 	padding-bottom: .35em;
 	padding-top: .50em;
 }
-
-h1: hover {
-	background-color: #ba6e8d;
-}
 .masthead {
 	padding: 1em;
 	background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/bg-pattern.png");
