@@ -248,14 +248,11 @@ footer {
   	background-color: #512200;
   	opacity: 0.5;
   	clear: both;
-}
-footer images {
-	position: absolute;
-	clear: both;
-	background-position: center;
+    text-align: center;
 }
 
 .graphic {
   	width: 10%;
+    margin: 0 auto;
   	opacity: 1;
 }
